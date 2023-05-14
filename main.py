@@ -180,8 +180,8 @@ def login(user, password):
 def main(_user, _passwd, min_1, max_1):
     user = str(_user)
     password = str(_passwd)
-    min_1 = 18000
-    max_1 = 26300
+    min_1 = 14000
+    max_1 = 20300
      
     step = str(random.randint(min_1, max_1))
     print("已设置为随机步数(" + str(min_1) + "~" + str(max_1) + ")")
